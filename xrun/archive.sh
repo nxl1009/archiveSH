@@ -1,16 +1,16 @@
 #使用方法
 
 #工程路径
-project_path="/Users/manwei/Desktop/gateio-app-ios-project"
+project_path="xxxxxxx"
 
 #工程名
-project_name="gateio_app"
+project_name="xx"
 
 #scheme名
-scheme_name="gateio_app"
+scheme_name="xxx"
 
 #ipa包名
-ipa_name="gate.io.ipa"
+ipa_name="xxx.ipa"
 
 #打包模式 Debug/Release
 development_mode=Release
@@ -30,11 +30,8 @@ logPath="/Users/manwei/Desktop/bash_sh/xrun/log"
 
 
 #上传蒲公英配置
-#uKey="38634d8041947f3c9e49abceb5d2052d"
-#api_key="af5aae3c79f6f73c5e1219c02bc33b1e"
-
-uKey="a6d03fadc5b3eb7cb7c62d3e41884402"
-api_key="ed090240c6b7ea257cf6496215344588"
+uKey="xxxx"
+api_key="xxx"
 
 echo '///-----------'
 echo '/// 正在清理工程'
@@ -43,7 +40,6 @@ xcodebuild \
 clean -workspace ${project_path}/${project_name}.xcworkspace -scheme $scheme_name \
 -configuration ${development_mode}
 
-#xcodebuild clean -workspace ${project_path}/${project_name}.xcworkspace -configuration ${development_mode} -alltargets -quiet  || exit
 
 echo '///--------'
 echo '/// 清理完成'
